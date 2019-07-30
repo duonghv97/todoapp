@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edtThemLoaiThucDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size10db"
+        android:hint="@string/name_food"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorGrey"
+        android:textColorHint="@color/colorGrey"
+        android:padding="@dimen/size10db"/>
+
+    <Button
+        android:text="@string/yes"
+        android:id="@+id/btnThemLoaiThucDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
